@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biggerwaves Internet</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: flex-start; 
+            height: 100vh; 
+            background-color: #f4f4f4; 
+            font-family: 'Arial', sans-serif;
+            padding-top: 10vh;
+        }
+        .container {
+            width: 30%;
+            max-width: 85%;
+        }
+        img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            color: #666;
+            margin-top: 10px;
+            text-align: left;
+            line-height: 1.5; margin-bottom: 20px;
+        }
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+        .copyright {
+            font-size: 14px;
+            color: #999;
+            text-align: left;
+        }
+        @media (max-width: 900px) {
+            .container {
+                width: 65%;
+            }
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 85%;
+            }
+            p { font-size: 18px; }
+        }
+            a {
+            color: inherit;
+            text-decoration: underline;
+        }
+    </style>
+    <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo">
+        
+        <p><strong>Biggerwaves Internet</strong> is a product-led technologist and marketer collective.</p>
+        <p>We design easy-to-run internet businesses – <i>often based on ridiculously simple ideas</i> – and operate them with a long-term view.</p>
+        <p>Current portfolio includes <a href="https://apps.shopify.com/blog-post-article-tag-filter" target="_blank">Shopify</a> <a href="https://apps.shopify.com/file-search-bar-download" target="_blank">apps</a> and an online <a href="https://addlensflare.com/" target="_blank">design tool</a>.</p>
+        <p>Headquartered in Ipoh, Malaysia. Run remotely.</p>
+        <hr>
+        <p class="copyright">© 2025 My Website. All rights reserved.</p>
+    </div>
+</body>
+</html>
